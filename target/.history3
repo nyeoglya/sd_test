@@ -11,3 +11,9 @@
 1725684297155:git config --global user.name "hyunseong"
 1725684299765:quit
 1725684302674:exit
+1725705316753:scala
+1725705327531:compile
+1725705368647:run PatternMatching
+1725705411673:runMain PatternMatching
+1725705428729:test
+1725705433743:runMain PatternMatching
