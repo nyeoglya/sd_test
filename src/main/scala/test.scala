@@ -14,7 +14,3 @@ object TestMain extends App {
     }
     (1 to 3) foreach (i => println(s"Result: ${service2.work(i)}"))
 }
-
-class ttest[R <: {def close():Unit}, T](resource: => R)(f: R => T) {
-
-}
