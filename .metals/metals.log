@@ -360,3 +360,5 @@ SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@426db73
 2024.09.07 13:40:29 INFO  Attaching to debuggee VM succeeded.[0m
 2024.09.07 13:40:30 INFO  Canceling debug proxy for [TestMain][0m
 2024.09.07 13:40:30 INFO  Closing debug server tcp://0.0.0.0:38563[0m
+Sep 07, 2024 1:40:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

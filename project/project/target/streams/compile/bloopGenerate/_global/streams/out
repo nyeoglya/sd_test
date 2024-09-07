@@ -1,4 +1,4 @@
-[debug] [sd_test-build-build] Classpath dependencies List()
-[debug] [sd_test-build-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'sd_test-build-build' to '/home/math/sd_test/project/project/.bloop/sd_test-build-build.json'
-[success] Generated .bloop/sd_test-build-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[sd_test-build-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[sd_test-build-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'sd_test-build-build' to '/home/math/sd_test/project/project/.bloop/sd_test-build-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/sd_test-build-build.json[0m

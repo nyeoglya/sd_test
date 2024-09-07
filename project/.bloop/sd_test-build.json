@@ -214,7 +214,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/home/math/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35",
+                "home": "/usr/lib/jvm/java-11-openjdk-amd64",
                 "options": [
                     "-Duser.dir=/home/math/sd_test/project"
                 ]
@@ -223,7 +223,7 @@
                 
             ],
             "runtimeConfig": {
-                "home": "/home/math/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35",
+                "home": "/usr/lib/jvm/java-11-openjdk-amd64",
                 "options": [
                     "-Duser.dir=/home/math/sd_test/project"
                 ]
