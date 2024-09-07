@@ -1,0 +1,176 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "sd_test",
+        "directory": "/home/math/sd_test",
+        "workspaceDir": "/home/math/sd_test",
+        "sources": [
+            "/home/math/sd_test/src/main/scala",
+            "/home/math/sd_test/src/main/scala-2.12",
+            "/home/math/sd_test/src/main/scala-2",
+            "/home/math/sd_test/src/main/java",
+            "/home/math/sd_test/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/home/math/.sbt/boot/scala-2.12.19/lib/scala-library.jar"
+        ],
+        "out": "/home/math/sd_test/.bloop/sd_test",
+        "classesDir": "/home/math/sd_test/.bloop/sd_test/scala-2.12/classes",
+        "resources": [
+            "/home/math/sd_test/src/main/resources",
+            "/home/math/sd_test/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.19",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/math/.sbt/boot/scala-2.12.19/lib/scala-library.jar",
+                "/home/math/.sbt/boot/scala-2.12.19/lib/scala-compiler.jar",
+                "/home/math/.sbt/boot/scala-2.12.19/lib/scala-reflect.jar",
+                "/home/math/.sbt/boot/scala-2.12.19/lib/scala-xml_2.12-2.2.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/home/math/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35",
+                "options": [
+                    "-Duser.dir=/home/math/sd_test"
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "runtimeConfig": {
+                "home": "/home/math/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35",
+                "options": [
+                    "-Duser.dir=/home/math/sd_test"
+                ]
+            },
+            "classpath": [
+                "/home/math/sd_test/.bloop/sd_test/scala-2.12/classes",
+                "/home/math/.sbt/boot/scala-2.12.19/lib/scala-library.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.19",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/math/.sbt/boot/scala-2.12.19/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/math/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.19/scala-library-2.12.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.19",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/math/.sbt/boot/scala-2.12.19/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/math/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.19/scala-library-2.12.19-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

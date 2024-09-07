@@ -1,0 +1,4 @@
+[debug] [sd_test-test] Classpath dependencies List()
+[debug] [sd_test-test] Dependencies from configurations List(sd_test)
+[debug] Bloop wrote the configuration of project 'sd_test-test' to '/home/math/sd_test/.bloop/sd_test-test.json'
+[success] Generated .bloop/sd_test-test.json
