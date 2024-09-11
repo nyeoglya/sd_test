@@ -214,7 +214,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/lib/jvm/java-11-openjdk-amd64",
+                "home": "/usr/lib/jvm/java-8-openjdk-amd64/jre",
                 "options": [
                     "-Duser.dir=/home/math/sd_test/project"
                 ]
@@ -223,7 +223,7 @@
                 
             ],
             "runtimeConfig": {
-                "home": "/usr/lib/jvm/java-11-openjdk-amd64",
+                "home": "/usr/lib/jvm/java-8-openjdk-amd64/jre",
                 "options": [
                     "-Duser.dir=/home/math/sd_test/project"
                 ]
